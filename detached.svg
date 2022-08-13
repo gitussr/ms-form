@@ -1,0 +1,28 @@
+<svg width="50" height="36" viewBox="0 0 50 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_49_1027)">
+<rect y="32.9734" width="49.1093" height="2.94656" fill="#CCE5F1"/>
+<rect x="2.80615" y="22.3096" width="43.4968" height="10.6637" fill="#C5CCD3"/>
+<path d="M5.54224 11.7511L43.5668 6.24389V22.3096H5.54224V11.7511Z" fill="#E6E9ED"/>
+<path d="M22.1694 5.7528L8.76962 2.80624V18.872L22.1694 16.3113V5.7528Z" fill="#E6E9ED"/>
+<path d="M23.5725 22.3096H24.6249V32.9734H23.5725V22.3096Z" fill="#E6E9ED"/>
+<rect x="6.06849" y="27.0452" width="14.2417" height="5.54233" fill="#288EC0" stroke="#074E71" stroke-width="0.771717"/>
+<path d="M9.55663 15.9293L9.22547 15.9768V16.3113V21.5379V21.9238H9.61133H39.4978H39.8837V21.5379V12.0318V11.5867L39.4431 11.6498L9.55663 15.9293Z" fill="#288EC0" stroke="#074E71" stroke-width="0.771717"/>
+<path d="M16.9105 7.65401L17.2233 7.71436V8.03287V10.5936V10.9794H16.8374H12.8385H12.4526V10.5936V7.26116V6.79371L12.9116 6.88229L16.9105 7.65401Z" fill="#288EC0" stroke="#074E71" stroke-width="0.771717"/>
+<rect x="37.9896" y="25.5017" width="4.20937" height="7.08577" fill="#288EC0" stroke="#074E71" stroke-width="0.771717"/>
+<rect x="30.3424" y="25.5017" width="4.20937" height="7.08577" fill="#288EC0" stroke="#074E71" stroke-width="0.771717"/>
+<rect width="45.8364" height="3.9989" rx="1.99945" transform="matrix(-0.989913 0.14168 0.14168 0.989913 46.9558 4.70046)" fill="#FD851A"/>
+<rect x="7.44189" y="0.491093" width="16.8851" height="3.9989" rx="1.99945" transform="rotate(8.14507 7.44189 0.491093)" fill="#FD851A"/>
+<line x1="33.1031" y1="12.7684" x2="33.1031" y2="21.5379" stroke="#074E71" stroke-width="0.771717"/>
+<path d="M25.3857 13.6804L25.3857 21.5379" stroke="#074E71" stroke-width="0.771717"/>
+<path d="M17.6687 14.9082L17.6687 21.5379" stroke="#074E71" stroke-width="0.771717"/>
+<line x1="4.61975" y1="18.872" x2="4.61975" y2="22.3096" stroke="#074E71" stroke-width="0.771717"/>
+<line x1="45.4506" y1="18.872" x2="45.4506" y2="22.3096" stroke="#074E71" stroke-width="0.771717"/>
+<line x1="44.0122" y1="18.4861" x2="46.7483" y2="18.4861" stroke="#074E71" stroke-width="0.771717"/>
+<line x1="3.25171" y1="18.4861" x2="5.9878" y2="18.4861" stroke="#074E71" stroke-width="0.771717"/>
+</g>
+<defs>
+<clipPath id="clip0_49_1027">
+<rect width="49.2188" height="36" fill="white"/>
+</clipPath>
+</defs>
+</svg>

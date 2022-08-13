@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Easy house Buying Form</title>
+	<link rel="stylesheet" href="form.css">
+</head>
+<body>
+	<!-- multistep form -->
+<form id="msform">
+  <!-- progressbar -->
+  <ul id="progressbar">
+    <li class="active">Post Code</li>
+    <li>Details</li>
+    <li>Timing</li>
+    <li>Contacts</li>
+  </ul>
+  <!-- fieldsets -->
+
+  <fieldset>
+    <h3 class="fs-subtitle">Steps: 1/5</h3>
+    <h2 class="fs-title">Get your <span>offer</span> & value your <span>home</span></h2>
+    <div class="form-group">
+      <label for="postcode">Please enter your postcode</label>
+      <input type="text" name="postcode" placeholder="Enter Postcode" id="postcode" required />
+    </div>
+      <input type="button" name="next" class="next action-button" value="Next Step" />
+  </fieldset> <!-- /.step 1 -->
+
+  <fieldset>
+    <h3 class="fs-subtitle">Steps: 2/5</h3>
+    <h2 class="fs-title">Tell us about your <span>property</span></h2>
+
+    <div class="form-group">
+      <label for="prop">Select your property</label>
+      <select name="property" id="prop">
+        <option value="">Select property property</option>
+        <option value="property 1">Option 1</option>
+        <option value="property 2">Option 2</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="">Type of property</label>
+
+      <div class="checkboxes">
+        <div class="box">
+          <label for="detached-box">
+            <img src="detached.svg" alt="" class="icon">
+            <small>Detached</small>
+            <input type="checkbox" id="detached-box" value="Detached" name="prop_type[]">
+            <span class="chkbx"></span>
+          </label>
+        </div>
+
+        <div class="box">
+          <label for="semi-detached-box">
+            <img src="semi-detached.svg" alt="" class="icon">
+            <small>Semi-Detached</small>
+            <input type="checkbox" id="semi-detached-box" value="Semi-Detached" name="prop_type[]">
+            <span class="chkbx"></span>
+          </label>
+        </div>
+
+        <div class="box">
+          <label for="terraced-box">
+            <img src="terraced.svg" alt="" class="icon">
+            <small>Terraced</small>
+            <input type="checkbox" id="terraced-box" value="Terraced" name="prop_type[]">
+            <span class="chkbx"></span>
+          </label>
+        </div>
+
+        <div class="box">
+          <label for="flat-box">
+            <img src="flat.svg" alt="" class="icon">
+            <small>Flat/Apartment</small>
+            <input type="checkbox" id="flat-box" value="Flat/Apartment" name="prop_type[]">
+            <span class="chkbx"></span>
+          </label>
+        </div>
+
+        <div class="box">
+          <label for="bungalow-box">
+            <img src="bunglow.svg" alt="" class="icon">
+            <small>Bungalow</small>
+            <input type="checkbox" id="bungalow-box" value="Bungalow" name="prop_type[]">
+            <span class="chkbx"></span>
+          </label>
+        </div>
+
+        <div class="box">
+          <label for="other-box">
+            <img src="plus.svg" alt="" class="icon">
+            <small>Other</small>
+            <input type="checkbox" id="other-box" value="Other" name="prop_type[]">
+            <span class="chkbx"></span>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="">Number of bedrooms</label>
+
+      <div class="radio-container">
+        <div class="radio-box">
+          <label for="r1">1</label>
+          <input type="radio" name="bdrm[]" class="radio" id="r1">
+          <span class="b-input"></span>
+        </div>
+
+        <div class="radio-box">
+          <label for="r2">2</label>
+          <input type="radio" name="bdrm[]" class="radio" id="r2">
+          <span class="b-input"></span>
+        </div>
+        
+        <div class="radio-box">
+          <label for="r3">3</label>
+          <input type="radio" name="bdrm[]" class="radio" id="r3">
+          <span class="b-input"></span>
+        </div>
+        
+        <div class="radio-box">
+          <label for="r4">4</label>
+          <input type="radio" name="bdrm[]" class="radio" id="r4">
+          <span class="b-input"></span>
+        </div>
+        
+        <div class="radio-box">
+          <label for="r5">5</label>
+          <input type="radio" name="bdrm[]" class="radio" id="r5">
+          <span class="b-input"></span>
+        </div>
+        
+        <div class="radio-box">
+          <label for="r6">5+</label>
+          <input type="radio" name="bdrm[]" class="radio" id="r6">
+          <span class="b-input"></span>
+        </div>
+      </div>
+    </div>
+
+    <input type="button" name="previous" class="previous action-button" value="Back" />
+    <input type="button" name="next" class="next action-button" value="Next" />
+  </fieldset> <!-- /.step 2 -->
+
+  <fieldset>
+    <h3 class="fs-subtitle">Steps: 3/4</h3>
+    <h2 class="fs-title">How fast you need to <span>sell</span></h2>
+
+
+      <div class="form-group">
+        <label for="">When to sell</label>
+
+
+        <div class="checkboxes checkboxes-step3">
+
+          <div class="box">
+            <label for="weeks-1">
+              <small>Within 1-4 weeks</small>
+              <input type="checkbox" id="weeks-1" name="ms_time[]" value="Within 1-4 weeks">
+              <span class="chkbx"></span>
+            </label>
+          </div>
+
+          <div class="box">
+            <label for="weeks-2">
+              <small>Within 6-8 weeks</small>
+              <input type="checkbox" id="weeks-2" name="ms_time[]" value="Within 6-8 weeks">
+              <span class="chkbx"></span>
+            </label>
+          </div>
+
+          <div class="box">
+            <label for="weeks-3">
+              <small>No rush, just curious</small>
+              <input type="checkbox" id="weeks-3" name="ms_time[]" value="No rush, just curious">
+              <span class="chkbx"></span>
+            </label>
+          </div>
+
+          <div class="box">
+            <label for="weeks-4">
+              <small>No rush, just curious</small>
+              <input type="checkbox" id="weeks-4" name="ms_time[]" value="No rush, just curious">
+              <span class="chkbx"></span>
+            </label>
+          </div>
+
+
+        </div>
+      </div>
+
+
+    <input type="button" name="previous" class="previous action-button" value="Back" />
+    <input type="button" name="next" class="next action-button" value="Next" />
+  </fieldset>  <!-- /.step 3 -->
+
+  <fieldset>
+    <h3 class="fs-subtitle">Step: 4/4</h3>
+    <h2 class="fs-title">Tell us your contact details</h2>
+
+
+    <div class="form-group">
+      <div class="df">
+        <div class="column-half">
+          <label for="fname">What’s your name?</label>
+          <input type="text" name="ms_fname" placeholder="Enter your name" />
+        </div>
+        <div class="column-half">
+          <label for="sname">What’s your surname?</label>
+          <input type="text" name="ms_sname" placeholder="Enter your surname" />
+        </div>        
+      </div>
+
+      <div class="df">
+        <div class="column-full">
+          <label for="phone">What’s your telephone number?</label>
+          <input type="tel" name="ms_phone" placeholder="Enter your telephone number" />
+        </div>
+      </div>
+
+      <div class="df">
+        <div class="column-full">
+          <label for="email">What’s your email address?</label>
+          <input type="email" name="ms_email" placeholder="Enter your email address" />
+        </div>
+      </div>
+
+      <div class="df">
+        <div class="column-full">
+          <div class="foot">
+            <input type="checkbox" id="prvc-plcy" name="ms_policy">
+            <label for="prvc-plcy">By submitting these informations, I agree to Easy House Buying <a href="#">privacy policy</a> and personal data treatement</label>            
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <input type="button" name="previous" class="previous action-button" value="Back" />
+    <input type="submit" name="ms_submit" class="submit action-button" value="Submit" />
+  </fieldset>  <!-- /.step 4 -->
+
+</form>
+
+
+<div class="well"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" referrerpolicy="no-referrer"></script>
+<script src="form.js"></script>
+</body>
+</html>
